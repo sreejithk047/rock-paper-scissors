@@ -6,81 +6,44 @@ function getcomputerchoice()
 
 function playround(playerselection,computerselection)
 {
-<<<<<<< HEAD
    
     
     if(playerselection=="rock" && computerselection=="paper")
     {       
-=======
-    playerselection=playerselection.toLowerCase();
-    if(playerselection=="rock" && computerselection=="paper")
-    {
->>>>>>> 73fe05a7388fb8f19f8575b8edc998fa1632b427
         return 0;
     }
 
     else if(playerselection=="paper" && computerselection=="rock")
-<<<<<<< HEAD
     {   
-=======
-    {
->>>>>>> 73fe05a7388fb8f19f8575b8edc998fa1632b427
         return 1;
     }
 
     else if(playerselection=="rock" && computerselection=="scissors")
-<<<<<<< HEAD
     {   
-=======
-    {
->>>>>>> 73fe05a7388fb8f19f8575b8edc998fa1632b427
         return 1;
     }
 
     else if(playerselection=="scissors" && computerselection=="rock")
-<<<<<<< HEAD
     {   
-=======
-    {
->>>>>>> 73fe05a7388fb8f19f8575b8edc998fa1632b427
         return 0;
     }
 
     else if(playerselection=="paper" && computerselection=="scissors")
-<<<<<<< HEAD
     {   
-=======
-    {
->>>>>>> 73fe05a7388fb8f19f8575b8edc998fa1632b427
         return 0;
     }
     
     else if(playerselection=="scissors" && computerselection=="paper")
-<<<<<<< HEAD
     {   
-=======
-    {
->>>>>>> 73fe05a7388fb8f19f8575b8edc998fa1632b427
         return 1;
     }
 
     else if(playerselection==computerselection)
-<<<<<<< HEAD
     {   
         return 2;
     }
 
    
-=======
-    {
-        return 2;
-    }
-
-    else
-    {
-        return 3;
-    }
->>>>>>> 73fe05a7388fb8f19f8575b8edc998fa1632b427
     
     
 }
@@ -90,7 +53,6 @@ function Game()
     let playerselection;
     let computerselection;
     let result;
-<<<<<<< HEAD
     let playercount=0;
     let computercount=0;
     
@@ -179,44 +141,5 @@ function Game()
 
 }
 
-=======
-
-    for (let i=0;i<5;i++)
-{   
-    console.log("Round "+(i+1)+"\t");
-    playerselection=prompt("Rock, Paper or scissors ?");
-    computerselection=getcomputerchoice();
-    result=playround(playerselection,computerselection);
-    
-
-    if(result==1)
-    {
-        console.log("You win! "+playerselection+" beats "+computerselection+"\t");
-    }
-
-    else if(result==0)
-    {
-        console.log("You lose! "+computerselection+" beats "+playerselection+"\t");
-    }
-
-    else if(result==2)
-    {
-        console.log("ITS A DRAW! \t");
-    }
-
-    else
-    {
-        console.log("Wrong input! \t")
-    }
-}
-
-}
->>>>>>> 73fe05a7388fb8f19f8575b8edc998fa1632b427
 
 Game();
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 73fe05a7388fb8f19f8575b8edc998fa1632b427

@@ -1,0 +1,33 @@
+[33mcommit 373f325ee88ca5d3fb8a97115c107b38ef7247f7[m[33m ([m[1;36mHEAD -> [m[1;32mrps-ui[m[33m, [m[1;31morigin/rps-ui[m[33m)[m
+Author: sreejithkr047 <sreejithkr047@gmail.com>
+Date:   Mon Oct 16 03:05:42 2023 +0530
+
+    Ui added
+    
+    2 buttons are used and dom manipulation is used to make the application more interactive
+
+[33mcommit cd273912768b845f8a82fd03cbceff5321107f97[m[33m ([m[1;32mmain[m[33m)[m
+Author: sreejithkr047 <sreejithkr047@gmail.com>
+Date:   Mon Oct 9 03:50:50 2023 +0530
+
+    Implemented rock paper scissors!
+    
+    modified index.html and script.js
+
+[33mcommit 7aaedf243642ac1a620e04f699d51b5ba871c541[m
+Author: sreejithkr047 <sreejithkr047@gmail.com>
+Date:   Mon Oct 9 02:13:33 2023 +0530
+
+    index.html and script.js created
+
+[33mcommit 4418052b761f469fbb525023577170b4a90f3504[m
+Author: SREEJITHK <sreejithkr047@gmail.com>
+Date:   Mon Oct 9 02:08:53 2023 +0530
+
+    Update README.md
+
+[33mcommit 5afa2281fadf915e8d749f64491532ff8d460a50[m
+Author: SREEJITHK <sreejithkr047@gmail.com>
+Date:   Mon Oct 9 02:07:52 2023 +0530
+
+    Initial commit
